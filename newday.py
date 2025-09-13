@@ -296,7 +296,7 @@ class DoctoraliaPhoneExtractor:
 
 def main():
     """Main function to run the phone extractor"""
-    EXCEL_FILE_PATH = "/home/ubuntu/doctoralia/doctoralia.xlsx"
+    EXCEL_FILE_PATH = "/home/ubuntu/doctoralia-guadalajara/doctoralia-guadalajara.xlsx"
     USE_PROXY = False
     PROXY_ADDRESS = "proxy_ip:proxy_port"
     START_ROW = 2
@@ -318,3 +318,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
