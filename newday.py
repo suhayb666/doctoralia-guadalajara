@@ -56,7 +56,7 @@ class DoctoraliaPhoneExtractor:
             logger.info(f"Using proxy: {self.proxy_address}")
 
         # Uncomment the line below to run headless (without opening browser window)
-        # chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--headless")
 
         # Point directly to installed chromedriver
         service = Service("/usr/local/bin/chromedriver")
@@ -318,4 +318,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
